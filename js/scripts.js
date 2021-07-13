@@ -52,3 +52,16 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+$(function () {
+    $('.carousel-control-next').click(function (e) {
+        e.preventDefault();
+        $('#carouselExample').carousel($(this).data());
+    });
+});
+$(function () {
+    $('.carousel-control-prev').click(function (e) {
+        e.preventDefault();
+        $('#carouselExample').carousel($(this).data());
+    });
+});
