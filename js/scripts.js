@@ -58,6 +58,8 @@ $(function () {
         e.preventDefault();
         $('#carousel1').carousel($(this).data());
         $('#carousel2').carousel($(this).data());
+        $('#carousel3').carousel($(this).data());
+        $('#carousel4').carousel($(this).data());
     });
 });
 $(function () {
@@ -65,5 +67,7 @@ $(function () {
         e.preventDefault();
         $('#carousel1').carousel($(this).data());
         $('#carousel2').carousel($(this).data());
+        $('#carousel3').carousel($(this).data());
+        $('#carousel4').carousel($(this).data());
     });
 });
