@@ -64,6 +64,7 @@ $(function () {
         $('#carousel6').carousel($(this).data());
         $('#carousel6').carousel($(this).data());
         $('#carousel7').carousel($(this).data());
+        $('#carousel8').carousel($(this).data());
         
     });
 });
@@ -77,5 +78,6 @@ $(function () {
         $('#carousel5').carousel($(this).data());
         $('#carousel6').carousel($(this).data());
         $('#carousel7').carousel($(this).data());
+        $('#carousel8').carousel($(this).data());
     });
 });
