@@ -60,6 +60,8 @@ $(function () {
         $('#carousel2').carousel($(this).data());
         $('#carousel3').carousel($(this).data());
         $('#carousel4').carousel($(this).data());
+        $('#carousel5').carousel($(this).data());
+        $('#carousel6').carousel($(this).data());
     });
 });
 $(function () {
@@ -69,5 +71,7 @@ $(function () {
         $('#carousel2').carousel($(this).data());
         $('#carousel3').carousel($(this).data());
         $('#carousel4').carousel($(this).data());
+        $('#carousel5').carousel($(this).data());
+        $('#carousel6').carousel($(this).data());
     });
 });
