@@ -56,12 +56,14 @@ window.addEventListener('DOMContentLoaded', event => {
 $(function () {
     $('.carousel-control-next').click(function (e) {
         e.preventDefault();
-        $('#carouselExample').carousel($(this).data());
+        $('#carousel1').carousel($(this).data());
+        $('#carousel2').carousel($(this).data());
     });
 });
 $(function () {
     $('.carousel-control-prev').click(function (e) {
         e.preventDefault();
-        $('#carouselExample').carousel($(this).data());
+        $('#carousel1').carousel($(this).data());
+        $('#carousel2').carousel($(this).data());
     });
 });
